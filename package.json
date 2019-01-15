@@ -1,0 +1,41 @@
+{
+  "name": "flowchart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server --mode=development",
+    "watch": "webpack --watch --mode=development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.2",
+    "bootstrap-less-port": "^0.3.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "flowchart.js": "^1.11.3",
+    "font-awesome": "^4.7.0",
+    "less": "^3.8.1",
+    "lodash": "^4.17.11",
+    "vue": "^2.5.17",
+    "webpack": "^4.19.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "chai": "^4.1.2",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "mocha": "^5.2.0",
+    "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
+    "vue-loader": "^15.4.2",
+    "vue-svg-loader": "^0.11.0",
+    "vue-template-compiler": "^2.5.17",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.10"
+  }
+}

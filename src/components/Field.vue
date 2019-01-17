@@ -22,8 +22,8 @@
                 <div v-bind:class="'tile '+(tile.isOpened?'tile__open':'tile__closed')" v-bind:style="{left: (tile.x*50)+'px', top:(tile.y*50)+'px'}">
                     <template v-if="tile.isOpened">
                         <span v-if="tile.isBomb">
-                            <i v-if="gameState=='lose'" class="fa fa-bomb"></i>
-                            <i v-else-if="gameState=='win'" class="fa fa-flag"></i>
+                            <i v-if="gameState=='lose'" class="fa text-danger fa-bomb"></i>
+                            <i v-else-if="gameState=='win'" class="fa text-success fa-flag"></i>
                         </span>
                         <span v-else>
                             {{tile.detection>0?tile.detection:''}}
